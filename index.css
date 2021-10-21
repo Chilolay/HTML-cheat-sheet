@@ -1,0 +1,32 @@
+body{
+    font-family: monospace;
+    background-color: aliceblue;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid black;
+    width: 700px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: steelblue;
+    color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 7px 10px 10px 10px;
+  }
+  
+  td {
+    border-top: 1px solid darkslategrey;
+    padding: 7px 10px 8px 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even){
+    background-color: lightsteelblue;
+  }
